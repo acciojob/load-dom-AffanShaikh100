@@ -1,4 +1,5 @@
 //your JS code here. If required.
-document.addEventListener("DOMContentLoaded",(domf)=>{
-	document.body.textContent("DOM load success")
-})
+function onDOMLoad() {
+        document.body.textContent = "DOM load success";
+      }
+document.addEventListener("DOMContentLoaded", onDOMLoad);
